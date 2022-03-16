@@ -75,7 +75,7 @@ function App() {
         <div><input
           type='text'
           className='posts'
-          placeholder='Title'
+          placeholder='Post'
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
