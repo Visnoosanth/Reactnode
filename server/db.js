@@ -6,7 +6,7 @@ import cors from "cors";
 
 const app=express();
 
-const CONNECTION_URL='mongodb+srv://visnoo:<password>@cluster0.lwe6d.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const CONNECTION_URL='mongodb+srv://visnoo:<pass_word>@cluster0.lwe6d.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const PORT=process.env.PORT || 5000;
 
 mongoose.connect(CONNECTION_URL, {useNewUrlParser:true, useUnifiedTopology:true})
